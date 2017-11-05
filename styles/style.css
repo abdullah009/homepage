@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300,700);
+
+@font-face {
+	font-family: TymesLittleCaps;
+	src: url('../font/TymesLittleCaps.otf');
+}
+
+body {
+	background-color: #aaaaaa;
+	font: 14px 'Merriweather Sans';
+	height: 100%;
+	margin: auto;
+	width: 1200px;
+}
+
+h2 {
+	color: darkslateblue;
+	font-family: TymesLittleCaps;
+	font-size: 40px;
+	font-weight: 400;
+	margin: 10px 0;
+}
+
+h3 {
+	color: rebeccapurple;
+	font-family: TymesLittleCaps;
+	font-size: 25px;
+	font-weight: 300;
+	margin: 5px 0 0 0;
+}
+
+h4 {
+	color: rebeccapurple;
+	font-family: TymesLittleCaps;
+	font-size: 22px;
+	font-weight: 300;
+	margin: 0px 0 0 0;
+}
+
+h5 {
+	color: rebeccapurple;
+	font-family: TymesLittleCaps;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0px 0 0 0;
+}
+
+h6 {
+	color: rebeccapurple;
+	font-family: TymesLittleCaps;
+	font-size: 15px;
+	font-weight: 300;
+	margin: 0px 0 0 0;
+}
+
+a {
+	color: #3366CC;
+	text-decoration: none;
+}
+
+p {
+	line-height: 20px;
+	margin: 0;
+	padding: 5px 0px 5px 0;
+	text-align: justify;
+}
+
+#left-menu {
+	/*display: inline-block; */
+	padding-top: 50px;
+	position: fixed;
+	vertical-align: top;
+	width: 200px;
+}
+
+#menu-container {
+
+}
+
+#menu-container a {
+	background-color: lightsteelblue;
+	border: solid 1px lightblue;
+	color: darkslateblue;
+	font-family: TymesLittleCaps;
+	font-size: 20px;
+	display: block;
+	margin: 5px 20px 5px 20px;
+	padding: 5px 10px 5px 20px;
+}
+
+#right-menu {
+	/*display: inline-block; */
+}
+
+#main-container {
+	background-color: lightgray;
+/*	border: solid 1px darkcyan; */
+	margin: auto;
+	padding: 5px 0;
+	width: 1200px;
+}
+
+#container {
+	background-color: #f7f7f7;
+/*	display: inline-block;
+/*	border: solid 1px darkcyan; */
+	margin-left: 200px;
+/*	padding: 0 5px; */
+	width: 800px;
+}
+
+#header {
+	width: 100%;
+}
+
+#header-photo, #header-description {
+	display: inline-block;
+	margin: 20px 20px;
+	vertical-align: middle;
+}
+
+#aam-photo {
+	border-radius: 2px;
+	border-color: cadetblue;
+	border-style: solid;
+	width: 250px;
+}
+
+#header-name {
+	color: darkslateblue;
+	font-family: TymesLittleCaps;
+	font-size: x-large;
+}
+
+#links {
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+.description {
+	margin: 0px 10px;
+	/*padding-bottom: 20px;*/
+}
+
+.separator {
+	border: solid 1px black;
+	margin: 2px 0px 10px 0px;
+}
+
+.section {
+	margin: 0px 10px;
+}
+
+.subsection {
+	margin-bottom: 5px;
+}
+
+.ordered-list {
+
+}
+
+.list-item {
+	padding: 0 0 10px 0;
+}
+
+.double-column {
+	display: inline-block;
+}
+
+.right-column {
+	float: right;
+}
+
+.name-list {
+	margin-left: 10px;
+}
+
+#footer {
+	padding: 10px 0;
+}
